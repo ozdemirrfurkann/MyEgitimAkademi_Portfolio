@@ -1,0 +1,27 @@
+﻿@model List<MyEgitimAkademi_Portfolio.Models.Testimonial>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>UYARI!!!</h2>
+<table class="table table-danger">
+   <tr>
+       <th>Sil</th>
+       <th>İptal</th>
+   </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+
+            <td>@item.Title</td>
+            <td>@item.Title</td>
+            <td><a href="/Testimonial/UyarıBtnController/" class="btn btn-outline-danger">Sil</a></td>
+            <td><a href="/Testimonial/UyarıBtnController/" class="btn btn-outline-success">İptal</a></td>
+        </tr>
+    }
+
+</table>
+<a href="/Testimonial/UyarıBtnController/" class="btn btn-outline-danger">Uyarı</a>
+
