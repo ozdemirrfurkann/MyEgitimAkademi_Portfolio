@@ -454,7 +454,6 @@
     <Content Include="Views\Testimonial\AddTestimonial.cshtml" />
     <Content Include="Views\Testimonial\Index.cshtml" />
     <Content Include="Views\Testimonial\UpdateTestimonial.cshtml" />
-    <Content Include="Views\Project\Index.cshtml" />
     <Content Include="Views\UyarıBtn\Index.cshtml" />
     <Content Include="Views\Statistic\Index.cshtml" />
     <Content Include="Views\Default\PartialHead.cshtml" />
@@ -577,6 +576,8 @@
     <Content Include="Templates\login-form-20\scss\bootstrap\_variables.scss" />
     <Content Include="Templates\login-form-20\scss\style.scss" />
     <Content Include="Views\Default\PartialClient.cshtml" />
+    <Content Include="Views\Project\AddProject.cshtml" />
+    <Content Include="Views\Project\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
