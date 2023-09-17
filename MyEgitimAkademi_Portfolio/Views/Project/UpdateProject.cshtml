@@ -1,0 +1,24 @@
+﻿@model MyEgitimAkademi_Portfolio.Models.Project
+@{
+    ViewBag.Title = "UpdateProject";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Proje Güncelleme Sayfası</h2>
+
+    <form method="post">
+        <label>Proje ID</label>
+        @Html.TextBoxFor(x => x.ProjectID, new { @class = "form-control" })
+        <label>Proje Adı</label>
+        @Html.TextBoxFor(x => x.Title, new { @class = "form-control" })
+        <label>Proje Açıklaması</label>
+        @Html.TextBoxFor(x => x.Description, new { @class = "form-control" })
+        <label>Proje Kategorisi</label>
+        @Html.TextBoxFor(x => x.ProjectCategory, new { @class = "form-control" })
+        <label>Proje Süresi</label>
+        @Html.TextAreaFor(x => x.CompleteDay, new { @class = "form-control" })
+        <label>Proje Tutarı</label>
+        @Html.TextAreaFor(x => x.Price, new { @class = "form-control" })
+        <br />
+        <button class="btn btn-outline-success">Verileri Güncelle</button>
+    </form>

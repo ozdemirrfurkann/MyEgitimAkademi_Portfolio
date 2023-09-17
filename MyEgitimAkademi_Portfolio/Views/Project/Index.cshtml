@@ -12,6 +12,7 @@
         <th>Proje Adı</th>
         <th>Kategori</th>
         <th>Tamamlanma Süresi(Gün)</th>
+        <th>Proje Açıklaması</th>
         <th>Fiyat</th>
         <th>Sil</th>
         <th>Güncelle</th>
@@ -23,8 +24,9 @@
         <tr>
             <td>@item.ProjectID</td>
             <td>@item.Title</td>
-            <td>@item.Category.CategoryName</td> 
+            <td>@item.ProjectCategory</td> 
             <td>@item.CompleteDay</td>
+            <td>@item.Description</td>
             <td>@item.Price</td>
             <td><a href="/Project/DeleteProject/@item.ProjectID" class="btn btn-outline-danger">Sil</a></td>
             <td><a href="/Project/UpdateProject/@item.ProjectID" class="btn btn-outline-success">Güncelle</a></td>
