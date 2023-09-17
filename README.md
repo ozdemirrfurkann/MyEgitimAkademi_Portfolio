@@ -35,6 +35,6 @@ Bu projenin amacı kullanıcıların web sitesinin içeriğini kolayca yönetmel
 
  Öncelikle projeyi klonlayın.
 
-git clone https://github.com/berkanbaytar/MyEgitimAkademi_Portfolio1.git Mssql deki connection string' inizi değiştirerek projeyi ayağa kaldırabilirsiniz.
+git clone https://github.com/ozdemirrfurkann/MyEgitimAkademi_Portfolio.git Mssql deki connection string' inizi değiştirerek projeyi ayağa kaldırabilirsiniz.
 
 Kayıt olma sayfasına gitmek için kendi Local adresinizin sonuna /Register ekleyerek index' ine gitmeniz gerekmektedir. Kayıt oluşturduktan sonra login sayfasına yönlendirileceksiniz ve login yaparak admin panelini kullanmaya başlayabilirsiniz.
